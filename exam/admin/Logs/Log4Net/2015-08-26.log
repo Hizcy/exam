@@ -1,0 +1,62 @@
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-26 09:33:02,008 
+【线程编号】[7] 
+【执行时间】[161]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-26 17:07:56,116 
+【线程编号】[117] 
+【执行时间】[80]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:lucy@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-26 17:08:03,793 
+【线程编号】[117] 
+【执行时间】[7757]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-26 17:58:59,052 
+【线程编号】[6] 
+【执行时间】[74]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】

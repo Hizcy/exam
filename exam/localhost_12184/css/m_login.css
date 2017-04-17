@@ -1,0 +1,211 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: "Microsoft Yahei","Helvetica Neue","Luxi Sans","DejaVu Sans",Tahoma,"Hiragino Sans GB",宋体 !important;
+}
+/* mobileLogin.html */
+.bodyBg {
+   /*background:url(../images/bg-m.jpg) no-repeat 0 0;*/
+   background-size:100% 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color:#eeeeee;
+}
+.bodyBg_main {
+  background-color:#f0f0f0 !important;
+}
+
+.form-signin {
+  /*max-width: 270px;*/
+  margin: 0 auto;
+    height: 600px;
+}
+.form-signiny {
+  max-width: 180px;
+  margin: 0 auto;
+  height:40px;
+}
+
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .logo {
+  margin-bottom: 30px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  border:1px solid #003265;
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color:#c9c9c9;
+  height:40px;
+}
+.form-signiny .form-controly {
+  position: relative;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  border:1px solid #003265;
+  font-family: 微软雅黑;
+  font-size: 14px;
+  color:#c9c9c9;
+  height:40px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signiny .form-controly:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  width:160px;
+  /*margin-bottom: 27px;*/
+  border-radius: 0;
+  border-radius: 0;
+  border:0;
+    height:40px;
+  color:#c9c9c9;
+  
+}
+.form-signiny input[type="text"] {
+  width:160px;
+  margin-bottom: 27px;
+  border-radius: 0;
+  border-radius: 0;
+  border:0;
+  color:#c9c9c9;
+    height:40px;
+  
+}
+:-ms-input-placeholder{color:#fff  }
+.form-signin input[type="password"] {
+  /*width:267px;*/
+  margin-bottom: 18px;
+  border-radius: 0;
+  border-radius: 0;
+  border:0;
+  color:#c9c9c9;
+}
+#wmSubBtn { background-color:#464D77 ;color:#FFF;font-family: 微软雅黑;  font-size: 16px;  font-weight: bold;  text-align: center; border-radius: 0px; border:none; width:270px; height:50px; }
+
+.navbar{background-color:#5a618d !important; border:none; height:60px; margin:0px;}
+.navbar .container{ width:inherit !important;}
+.navbar .nav {margin-top:5px; margin-left:10px; color:#fff; font-family:"微软雅黑"; font-size:16px; }
+.navbar .container .nav-left{ display:none;}
+.navbar-header {color:#fff; font-family:"微软雅黑"; font-size:16px; }
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:visited, .navbar-inverse .navbar-nav > li > a:focus {
+	background-color:#5a618d;
+    color: #fff !important;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #3C4167 !important;
+}
+.navbar .glyphicon{ display:none}
+@media (max-width: 768px) {
+  .navbar .nav {margin-top: inherit; margin-left:inherit;}
+  .navbar .container .nav-left{ 
+  display: inline-block;
+  float: right;
+  padding-top: 17px;
+  position: absolute;
+  text-align: center;
+  width: 50%;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+	  line-height:40px;
+	  border-bottom: #000 1px solid;
+}
+  .navbar .glyphicon {
+		float: right;
+		display:inline-block;
+		line-height: inherit;
+		top: inherit;
+	}
+}
+@media (min-width: 768px) {
+  .navbar-exam , .navbar-numCard{float: inherit !important}
+  .navbar-numCard .nav-left{
+	  display: inline-block;
+	  float: right;
+	  padding-top: 17px;
+	  position: absolute;
+	  text-align: center;
+	  width: 70%;
+	}
+}
+.main {padding:15px 15px 15px 15px; width:inherit; font-family:"微软雅黑"; font-size:14px; }
+.main .box { background-color:#FFF; border: #c3c3c3 1px solid; margin-bottom:15px;}
+.main .box .title { padding:20px 15px 5px 15px; border-bottom:#c3c3c3 1px solid; min-height:60px; }
+.main .box .title .titleIcon1 { background:url(../images/arrow2.png) no-repeat ; padding-left:25px;}
+.main .box .title .titleIcon2 { background:url(../images/arrow1.png) no-repeat ; padding-left:25px;}
+.main .box .content { padding-left:15px; padding-top:10px; min-height:60px; display:none;}
+/*user.html*/
+.main .box .list {display:block; border-bottom:#c3c3c3 1px solid; padding-top:17px; font-size:16px;  }
+.exitBtn { border-radius: 0px; background-color: #464D77;}
+/*exam_history.html*/
+.main .box .list-history {display:block;  }
+.exitBtn { border-radius: 0px; background-color: #464D77;}
+.title-text{ display:inline-block;  font-family:"微软雅黑"; font-size:14px; font-weight:bold; width:70%}
+.title-btn{ display:inline-block;  float:right;}
+.btn-pass {  border-radius: 0px; background-color: #464D77 !important; border-color: #464D77 !important;}
+.btn-nopass {  border-radius: 0px; background-color: #dc0000 !important; border-color: #dc0000 !important;}
+/*exam_answer.html*/
+.answer {padding:75px 15px 15px 15px; height: auto;}
+.main .answer-list {height:90%;}
+.main .answer-list .exam-title { margin-bottom:10px;}
+.main .answer-list .exam-content {display:block; margin-bottom:10px; margin-right:10px;  }
+img.exam-back-btn , img.num-back-btn {border:#001a34 1px solid;}
+img.num-back-btn { margin-top:12px; margin-left:15px;}
+img.exam-showNum-btn{border:#001a34 1px solid; border-left:none;}
+.navbar .nav-exam-left{display:block; float:left; margin-left: 15px;margin-top: 12px;}
+.navbar .nav-exam-right{display:block; float:right; margin-right: 15px;margin-top: 12px;}
+.timeLogo {height:36px; border:#001a34 1px solid; border-right:none; display:inline-block}
+.nav-exam-right ul, .nav-exam-right li {list-style:none;margin:0;padding:0;}
+.nav-exam-right ul li {display:inline-block;}
+#timeDown { background: url(../m_img/btn-time.jpg) no-repeat left !important; background-color:#003264 !important; font-size:14px; color:#FFF; height:36px; border:#001a34 1px solid; width:100px; padding:8px 5px 5px 30px;}
+#btn-subExam {display:inline-block;  width:60px;  height:36px; background-color: #faa01e !important; border:#001a34 1px solid;border-left:none; font-size:15px;padding: 7px ; margin-left:0px; text-align:center}
+.navbar-numCard .nav-left{ display:inline-block !important;}
+#numHeader , #numPanel{display:none}
+#numPanel .iconBox{border: 1px solid #5a5a5a; color:#5a5a5a; width:27px; height:27px; display: inline-block; text-align:center; margin-right:6px; margin-bottom:8px; line-height:27px; font-size:14px}
+a.iconBox:hover{ text-decoration:none;}
+#numPanel .icon_answer_answered {background-color:#5a5a5a; color:#fff}
+#numPanel .icon_answer_no {}
+#numPanel .icon_answer_mark { border-color:#faa01e;background-color:#faa01e; color:#fff}
+#numPanel .boxTitle {background-color:#e3e3e3; display:block; width:100%; min-height:36px; line-height:36px; padding-left:15px; padding-right:15px;}
+/*吸低样式*/
+.nav-menu{border:0px none;cursor:default;/*font-size:0;*/line-height:0}
+.nav-menu .mainmenu .arrow-weixin{margin-right:0}
+.nav-menu .mainmenu .arrow-weixin,.nav-menu .mainmenu .mainmenu-txt{font-size:14px;line-height:45px/*;display:inline-block*/;vertical-align:middle}
+.shop-nav{position:fixed;z-index:99}
+.nav-menu .nav-item{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.nav-menu a{/*display:block;height:100%;*/background-position:center center;background-size:contain;background-repeat:no-repeat}
+.nav-menu-1,.nav-menu-2,.nav-menu-3{bottom:0px;left:0px;right:0px;height:40px;background:#eaeaea;color:#eee;text-align:center}
+.nav-menu-4,.nav-menu-5{left:0px;bottom:0px}
+.nav-menu-1{border:0px none;-webkit-border-image:url("/v2/image/wap/shopnav/nav_border.png") 2 stretch;-moz-border-image:url("/v2/image/wap/shopnav/nav_border.png") 2 stretch;border-image:url("/v2/image/wap/shopnav/nav_border.png") 2 stretch;background:no-repeat #eeeeee;background-size:100% 100px;height:100px}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio: 3/2),only screen and (min-device-pixel-ratio: 1.5) {
+    /*决定宽的比例*/
+    .nav-menu-1.has-menu-3 .nav-item {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+

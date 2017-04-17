@@ -1,0 +1,422 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="Pragma" content="no-cache">
+    <title>快去读</title>
+    <link rel="icon" sizes="any" mask href="http://kqd.webf.com.cn/images/kuai.png" />
+    <link rel="stylesheet" type="text/css" href="../css/mobile.css" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/home.css" />   
+<!--     <script src="../js/zepto.js"></script>-->
+    <script src="../js/jquery-1.7.2.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/kkcountdown.min.js"></script>
+     <script src="../js/m_exam_answer.js"></script>
+    <link href="../css/new.css" rel="stylesheet" />
+
+   
+</head>
+<body>      
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation" id="examHeader">
+        <div class="container">
+            <div class="navbar-header navbar-exam">
+                <div class="nav-exam-left">
+                    <a id="fanhuiid" href="m_ListExam.html"><img src="../images/btn-arrow.png" width="37" height="36" class="exam-back-btn" /></a>
+                </div>
+                <div class="nav-exam-right">
+                    <ul>
+                        <li id="timeDown" data-seconds="3441">
+                            <span class="kkcountdown-box">
+                            </span>
+                        </li>
+                        <li id="examEndBtn" >交卷</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <span style="display:-moz-inline-box; display:inline-block;width:100%;text-align:center;margin-top:30px" id="name"><!--<%=Name %>--></span>
+        <div class="container main answer" style="margin-top:-50px;overflow:auto" id="examPanel">
+            <div class="box answer-list" id="count">
+               <!-- <%=body %>-->
+            </div>
+            <span style="float:right;margin-right:20px">
+                <input id="btn_down" type="button" style="width:50px" class="btn btn-primary btn-xs btn-pass" value="下一题" />
+
+            </span>
+            <span style="float:left;margin-left:20px">
+                <input id="btn_up" type="button" style="width:50px" class="btn btn-primary btn-xs btn-pass" value="上一题" />
+            </span>
+            <br />
+            <div style="margin-top:50px"></div>
+        </div>
+        <script src="../js/com.js"></script>
+        <script src="../js/run.js"></script>
+        <!--吸低 子菜单 -->
+        <div class="js-navmenu js-footer-auto-ele shop-nav nav-menu nav-menu-1 has-menu-3">
+            <div id="wrapper">
+                <div class="first">
+                    <dl id="ticker-1">
+                        <dt>相册代码</dt>
+                        <dd><a href="#" target="_blank"></a> </dd>
+                    </dl>
+                </div>
+            </div>
+            <!--<div class="nav-item" id="book">
+            </div>-->
+        </div>
+    </div>
+
+    <input id="hid" type="text" style="display:none" />
+    <input id="hidindex" type="text" style="display:none" />
+    <input id="hidup" type="text" style="display:none" />
+    <input id="hiddown" type="text" style="display:none" />
+
+    <div class="modal fade iframeModal" id="examEndModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:50%;margin:auto;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">考试结果</h4>
+                </div>
+                <div class="modal-body">
+                    <div><span class="examScore"></span></div>
+                    <div>通过情况：<span class="examStatus"></span></div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary examEndJumpBtn">确定</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script language="javascript" type="text/javascript">
+        var ExampaperId ="";
+        var ClsId = "";
+        var userId = 0;
+        var schoolId=0;
+        var url = location.search; //获取url中"?"符后的字串
+        if (url.indexOf("?") != -1) {
+            var str = url.substr(1);
+            strs = str.split("&");
+            ExampaperId = strs[0].split("=")[1];
+            ClsId = strs[3].split("=")[1];
+            userId = strs[1].split("=")[1];
+            schoolId = strs[2].split("=")[1];
+            //@zcy.com
+            var school = strs[4].split("=")[1];
+            school = school.split(".")[0];
+            school = school.substr(1);
+            $("#book").html("<a class=\"mainmenu js-mainmenu\" href=\"http://ts.kuaiqudu.cn/?school=" + school + "\"><span class=\"mainmenu-txt\">进入书城</span></a>")
+            //$("#fanhuiid").attr("href", "../exam/m_ListExam.html?userid=" + userId + "&schoolid=" + schoolId + "&idname=" + idname + "&iddomain=" + iddomain);
+        }
+
+        $(function () {
+            var num = $("#hidindex").val();//是否第一次执行
+            var num2 = $("#hiddown").val();//当前题号
+            $.ajax({
+                url: "../data/data.aspx",
+                type: 'POST',
+                data: {
+                    type: 'Answer',
+                    id: ExampaperId,
+                    clsid: ClsId,
+                    num: num,
+                    num2: num2,
+                    userid: userId
+                },
+                success: function (result) {
+                    if (result != "") {
+                        eval("var data=" + result + "");
+                        $("#count").html(decodeURIComponent(data.body));//解码赋值
+                        $("#name").html(data.name);
+                        timeDown(data.time);
+                        $("#hidindex").val(data.hidindex);
+                        $("#hiddown").val(data.hiddown);
+                    }
+                }
+            })
+        })
+
+        var getRadio = function() {
+
+            var questionsType = $(this).attr("questionsType");
+            var parentDiv = $(this).parents(".questionsContent");
+            var questionsId = parentDiv.attr("questionsId");
+
+            var keyList = "";
+
+            if (questionsType == "1") { //单选
+                $(parentDiv.find(".radioOrCheck")).each(function (index, element) {
+                    if ($(this).is(":checked")) {
+                        keyList = $(this).attr("answerName") + ",";
+
+                    }
+                });
+                parentDiv.find("[name='questionsAnswered']").val(keyList);
+            }
+            else if (questionsType == "2") {//多选
+                $(parentDiv.find(".radioOrCheck")).each(function (index, element) {
+                    if ($(this).is(":checked")) {
+                        keyList += $(this).attr("answerName") + ",";
+                    }
+                });
+                parentDiv.find("[name='questionsAnswered']").val(keyList);
+            }
+            else if (questionsType == "3") { //判断
+                $(parentDiv.find(".radioOrCheck")).each(function (index, element) {
+                    if ($(this).is(":checked")) {
+                        keyList = $(this).attr("answerName") + ",";
+                    }
+                });
+                parentDiv.find("[name='questionsAnswered']").val(keyList);
+            }
+        }
+
+        $(".radioOrCheck").click(function (e) {
+
+            var questionsType = $(this).attr("questionsType");
+            var parentDiv = $(this).parents(".questionsContent");
+            var questionsId = parentDiv.attr("questionsId");
+
+            var keyList = "";
+
+            if (questionsType == "1") { //单选
+                $(parentDiv.find(".radioOrCheck")).each(function (index, element) {
+                    if ($(this).is(":checked")) {
+                        keyList = $(this).attr("answerName") + ",";
+
+                    }
+                });
+                parentDiv.find("[name='questionsAnswered']").val(keyList);
+            }
+            else if (questionsType == "2") {//多选
+                $(parentDiv.find(".radioOrCheck")).each(function (index, element) {
+                    if ($(this).is(":checked")) {
+                        keyList += $(this).attr("answerName") + ",";
+                    }
+                });
+                parentDiv.find("[name='questionsAnswered']").val(keyList);
+            }
+            else if (questionsType == "3") { //判断
+                $(parentDiv.find(".radioOrCheck")).each(function (index, element) {
+                    if ($(this).is(":checked")) {
+                        keyList = $(this).attr("answerName") + ",";
+                    }
+                });
+                parentDiv.find("[name='questionsAnswered']").val(keyList);
+            }
+        });
+        
+        $("#examEndBtn").click(function (e) {
+            $("#examPanel").css("display", "none");
+            $("#name").css("display", "none");
+            $(".keyFill , .keyCloze").each(function () {
+                var parentDiv = $(this).parents(".questionsContent");
+                var questionsId = parentDiv.attr("questionsId");
+                var keyList = $(this).val();
+                if (keyList != "") {
+                    parentDiv.find("[name='questionsAnswered']").val(keyList);
+                }
+            });
+            $(".questionsContent").each(function () {
+                var type = $(this).find("[name = 'questionsType']").val();
+                var val = $(this).find("[name = 'questionsAnswered']").val();
+                if (val == "") {
+                    b = true;
+                }
+                var temp = "{\"type\":\"" + type + "\",\"qid\":\"" + $(this).attr("questionsId") + "\",\"val\":\"" + val + "\",\"score\":\"" + $(this).attr("questionscore") + "\"}";
+                createdata(type, $(this).attr("questionsId"), val, $(this).attr("questionscore"));
+            });
+            var dataForm = "[" + $("#hid").val() + "]";
+
+            $.ajax({
+                type: "POST",
+                dataType: "json",
+                url: "../data/answer.ashx",
+                data: "exampaperid=" +ExampaperId +"&clsid=" + ClsId + "&data=" + dataForm+"&userid="+userId+"&schoolid="+schoolId,
+                processData: false,
+                success: function (msg) {
+                   
+                    if (msg.msg == "True") {
+                        if (msg.release_info == "") {
+                            $("answer-list").text(msg.score);
+                            $("#examEndModal .examStatus").text(msg.is_pass);
+
+                        } else {
+                            $("#examEndModal .modal-body").html('<div>' + msg.release_info + '</div>');
+                        }
+                        $('#examEndModal').modal({ backdrop: true });
+                    } else {
+                        alert("操作失败，请联系管理员！");
+                    }
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    asynSubTimeoutFn(exam_test_list);
+                }
+            });
+
+        });
+        $("#btn_down").click(function () {
+            $(".keyFill , .keyCloze").each(function () {
+                var parentDiv = $(this).parents(".questionsContent");
+                var questionsId = parentDiv.attr("questionsId");
+                var keyList = $(this).val();
+                if (keyList != "") {
+                    parentDiv.find("[name='questionsAnswered']").val(keyList);
+                }
+            });
+            $(".questionsContent").each(function () {
+                var type = $(this).find("[name = 'questionsType']").val();
+                var val = $(this).find("[name = 'questionsAnswered']").val();
+                if (val == "") {
+                    b = true;
+                }
+                var temp = "{\"type\":\"" + type + "\",\"qid\":\"" + $(this).attr("questionsId") + "\",\"val\":\"" + val + "\",\"score\":\"" + $(this).attr("questionscore") + "\"}";
+                createdata(type, $(this).attr("questionsId"), val, $(this).attr("questionscore"));
+            });
+            var index = parseInt($("#hidindex").val());
+            var down = parseInt($("#hiddown").val());
+            if (index < down)
+                getquestion(index + 1);
+
+            btn(1, (index + 1), down);
+            event.returnValue = false;
+            e.stopPropagation();
+            e.preventDefault();
+        });
+        $("#btn_up").click(function () {
+            $(".keyFill , .keyCloze").each(function () {
+                var parentDiv = $(this).parents(".questionsContent");
+                var questionsId = parentDiv.attr("questionsId");
+                var keyList = $(this).val();
+                if (keyList != "") {
+                    parentDiv.find("[name='questionsAnswered']").val(keyList);
+                }
+            });
+            $(".questionsContent").each(function () {
+                var type = $(this).find("[name = 'questionsType']").val();
+                var val = $(this).find("[name = 'questionsAnswered']").val();
+                if (val == "") {
+                    b = true;
+                }
+                var temp = "{\"type\":\"" + type + "\",\"qid\":\"" + $(this).attr("questionsId") + "\",\"val\":\"" + val + "\",\"score\":\"" + $(this).attr("questionscore") + "\"}";
+                createdata(type, $(this).attr("questionsId"), val, $(this).attr("questionscore"));
+            });
+            var index = parseInt($("#hidindex").val());
+            var down = parseInt($("#hiddown").val());
+
+            if (1 < index)
+                getquestion(index - 1);
+
+            btn(1, (index - 1), down);
+            event.returnValue = false;
+            e.stopPropagation();
+            e.preventDefault();
+        });
+        function btn(up,index,down)
+        {
+            $("#btn_up").css("display", "block");
+            $("#btn_down").css("display", "block");
+            if (index == up)
+            {
+                $("#btn_up").css("display", "none");
+            }
+
+            if (index == down)
+            {
+                $("#btn_down").css("display", "none");
+            }
+        }
+        function getquestion(index)
+        {
+            $.ajax({
+                type: "POST",
+                dataType: "json",
+                url: "../data/getquestion.ashx",
+                data: "clsid=" + ClsId  + "&index=" + index+"&userid="+ userId,
+                processData: false,
+                success: function (msg) {
+                    if (msg.msg == "True") {
+                        $(".answer-list").html(Decode(msg.release_info));
+                        $("#hidindex").val(index);
+                        $(".radioOrCheck").bind("click", getRadio);
+                    } else {
+                        alert("操作失败，请联系管理员！");
+                    }
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    asynSubTimeoutFn(exam_test_list);
+                }
+            });
+        }
+        function createdata(type, qid, val, score) {
+            var temp = $("#hid").val();
+            var b = false;
+            var arr = JSON.parse("[" + temp + "]");
+            arr.forEach(function (e) {
+                if (e.qid == qid) {
+                    e.val = val;
+                    b = true;
+                }
+
+            });
+            if (!b) {
+                if (temp == "") {
+                    temp += "{\"type\":\"" + type + "\",\"qid\":\"" + qid + "\",\"val\":\"" + val + "\",\"score\":\"" + score + "\"}";
+                }
+                else {
+                    temp += ",{\"type\":\"" + type + "\",\"qid\":\"" + qid + "\",\"val\":\"" + val + "\",\"score\":\"" + score + "\"}";
+                }
+                $("#hid").val(temp);
+            }
+            else {
+                var last = JSON.stringify(arr);
+                last = last.substr(0, last.length - 1);
+                last = last.substr(1, last.length);
+                $("#hid").val(last);
+            }
+
+        }
+        function Decode(str) {
+            var s = "";
+            if(str.length == 0) return "";
+            s = str.replace(/&amp;/g,"&");
+            s = s.replace(/&lt;/g,"<");
+            s = s.replace(/&gt;/g,">");
+            s = s.replace(/&nbsp;/g," ");
+            s = s.replace(/&#39;/g,"\'");
+            s = s.replace(/&quot;/g,"\"");
+            return s;
+        }
+        $(function () {
+            var index = parseInt($("#hidindex").val());
+            var down = parseInt($("#hiddown").val());
+            btn(1,1,down);
+        })
+        $(function () {
+            $.ajax({
+                url: "../data/data.aspx",
+                type: 'POST',
+                data: {
+                    type: 'ad',
+                    schoolId: schoolId
+                },
+                success: function (strad) {
+                    if (strad != "") {
+                        eval("var json=" + strad + "");
+                        $("#ticker-1").html(decodeURIComponent(json.body));//解码赋值
+                    }
+                }
+            })
+        })
+    </script>
+</body>
+</html>

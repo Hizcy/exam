@@ -1,0 +1,456 @@
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 10:58:41,863 
+【线程编号】[7] 
+【执行时间】[130]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:03:25,824 
+【线程编号】[17] 
+【执行时间】[284090]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:04:14,827 
+【线程编号】[17] 
+【执行时间】[333094]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:08:09,334 
+【线程编号】[26] 
+【执行时间】[69]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:10:25,068 
+【线程编号】[30] 
+【执行时间】[135802]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:14:53,428 
+【线程编号】[19] 
+【执行时间】[404163]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:15:52,450 
+【线程编号】[22] 
+【执行时间】[463185]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:16:57,780 
+【线程编号】[16] 
+【执行时间】[48]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:20:04,709 
+【线程编号】[22] 
+【执行时间】[186976]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:20:28,649 
+【线程编号】[23] 
+【执行时间】[61]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:21:16,406 
+【线程编号】[16] 
+【执行时间】[47817]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:24:26,865 
+【线程编号】[26] 
+【执行时间】[238276]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:24:51,947 
+【线程编号】[28] 
+【执行时间】[48]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:24:55,789 
+【线程编号】[26] 
+【执行时间】[3890]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:26:31,331 
+【线程编号】[26] 
+【执行时间】[99431]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:26:36,602 
+【线程编号】[26] 
+【执行时间】[104702]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:26:40,497 
+【线程编号】[26] 
+【执行时间】[108598]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 11:45:03,614 
+【线程编号】[12] 
+【执行时间】[1211714]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 12:00:42,184 
+【线程编号】[37] 
+【执行时间】[67]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 13:02:18,024 
+【线程编号】[61] 
+【执行时间】[3695906]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 13:02:19,717 
+【线程编号】[59] 
+【执行时间】[3697599]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 13:02:32,312 
+【线程编号】[60] 
+【执行时间】[3710195]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 13:02:34,420 
+【线程编号】[60] 
+【执行时间】[3712302]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 13:02:39,935 
+【线程编号】[59] 
+【执行时间】[3717817]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 13:02:42,323 
+【线程编号】[59] 
+【执行时间】[3720205]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 13:02:45,181 
+【线程编号】[59] 
+【执行时间】[3723063]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 13:02:46,230 
+【线程编号】[60] 
+【执行时间】[3724113]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 13:02:49,839 
+【线程编号】[59] 
+【执行时间】[3727722]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 14:06:55,356 
+【线程编号】[38] 
+【执行时间】[7573239]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 15:22:25,432 
+【线程编号】[64] 
+【执行时间】[112]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 15:28:05,894 
+【线程编号】[7] 
+【执行时间】[61]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 15:30:27,659 
+【线程编号】[6] 
+【执行时间】[141826]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 15:40:03,402 
+【线程编号】[34] 
+【执行时间】[717569]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 16:01:18,710 
+【线程编号】[34] 
+【执行时间】[64]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 18:26:56,761 
+【线程编号】[77] 
+【执行时间】[73]毫秒 
+【出错文件】e:\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-24 18:27:42,255 
+【线程编号】[10] 
+【执行时间】[45567]毫秒 
+【出错文件】e:\exam\admin\user\ListName.aspx.cs 
+【出错行号】55 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】listname,ex:1111 
+【错误详情】

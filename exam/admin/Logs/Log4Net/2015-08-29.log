@@ -1,0 +1,565 @@
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 09:01:36,295 
+【线程编号】[6] 
+【执行时间】[148]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:admin@test.ksx.com,pwd:admin,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 09:39:01,481 
+【线程编号】[24] 
+【执行时间】[76]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:coco@test.ksx.com,pwd:123123,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 09:45:07,686 
+【线程编号】[6] 
+【执行时间】[85]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:admin@test.ksx.com,pwd:admin,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 10:23:07,690 
+【线程编号】[22] 
+【执行时间】[84]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:admin@zcy.com,pwd:c5s0HL,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 10:23:30,813 
+【线程编号】[21] 
+【执行时间】[23206]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:admin@zcy.com,pwd:c5s0HL,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 10:24:13,685 
+【线程编号】[24] 
+【执行时间】[66078]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:admin@zcy.com,pwd:c5s0HL,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 10:29:09,013 
+【线程编号】[7] 
+【执行时间】[78]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:admin@webf.com,pwd:admin,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 10:48:04,563 
+【线程编号】[12] 
+【执行时间】[114]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:admin@zcy.com,pwd:c5s0HL,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 11:09:36,774 
+【线程编号】[29] 
+【执行时间】[77]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:admin@zcy.com,pwd:c5s0HL,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 11:48:42,341 
+【线程编号】[68] 
+【执行时间】[2345644]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:admin@zcy.com,pwd:c5s0HL,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 12:13:02,863 
+【线程编号】[54] 
+【执行时间】[3806165]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:admin@zcy.com,pwd:c5s0HL,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 13:45:36,829 
+【线程编号】[10] 
+【执行时间】[73]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:admin@zcy.com,pwd:c5s0HL,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 13:46:56,059 
+【线程编号】[12] 
+【执行时间】[79302]毫秒 
+【出错文件】e:\exam\exam\admin\App_Code\BasePage.cs 
+【出错行号】222 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】excel,ex:名为“Table”的 DataTable 已属于此 DataSet。|   在 System.Data.DataTableCollection.RegisterName(String name, String tbNamespace)
+   在 System.Data.DataTableCollection.BaseAdd(DataTable table)
+   在 System.Data.DataTableCollection.Add(DataTable table)
+   在 BasePage.ToDataTable(String filePath) 位置 e:\exam\exam\admin\App_Code\BasePage.cs:行号 217 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 14:39:23,785 
+【线程编号】[8] 
+【执行时间】[75]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:admin@webf.com,pwd:admin,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 15:00:58,803 
+【线程编号】[8] 
+【执行时间】[84]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:100110000002@zcy.com,pwd:admin,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 15:04:17,563 
+【线程编号】[14] 
+【执行时间】[198843]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:100110000003@zcy.com,pwd:admin,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 16:59:37,973 
+【线程编号】[43] 
+【执行时间】[127]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:100110000003@zcy.com,pwd:admin,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 17:13:57,891 
+【线程编号】[10] 
+【执行时间】[132]毫秒 
+【出错文件】e:\exam\exam\admin\data\data.aspx.cs 
+【出错行号】639 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】data.aspx.cs,addconreadbook,ex:违反了 PRIMARY KEY 约束 'PK_tb_School_QuestionCls'。不能在对象 'dbo.tb_School_QuestionCls' 中插入重复键。
+语句已终止。|   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Exam.DAL.tb_School_QuestionClsDataAccessLayer.Insert(tb_School_QuestionClsEntity _tb_School_QuestionClsModel) 位置 e:\exam\exam\DAL\tb_School_QuestionClsDal.cs:行号 63
+   在 Exam.BLL.tb_School_QuestionClsBLL.Insert(tb_School_QuestionClsEntity tb_School_QuestionClsEntity) 位置 e:\exam\exam\BLL\tb_School_QuestionClsLogic.cs:行号 30
+   在 data_data.addconreadbook(Int32 id) 位置 e:\exam\exam\admin\data\data.aspx.cs:行号 633 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 17:16:01,094 
+【线程编号】[16] 
+【执行时间】[123335]毫秒 
+【出错文件】e:\exam\exam\admin\data\data.aspx.cs 
+【出错行号】639 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】data.aspx.cs,addconreadbook,ex:当 IDENTITY_INSERT 设置为 OFF 时，不能为表 'tb_School_QuestionCls' 中的标识列插入显式值。|   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Exam.DAL.tb_School_QuestionClsDataAccessLayer.Insert(tb_School_QuestionClsEntity _tb_School_QuestionClsModel) 位置 e:\exam\exam\DAL\tb_School_QuestionClsDal.cs:行号 63
+   在 Exam.BLL.tb_School_QuestionClsBLL.Insert(tb_School_QuestionClsEntity tb_School_QuestionClsEntity) 位置 e:\exam\exam\BLL\tb_School_QuestionClsLogic.cs:行号 30
+   在 data_data.addconreadbook(Int32 id) 位置 e:\exam\exam\admin\data\data.aspx.cs:行号 633 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 17:16:03,792 
+【线程编号】[12] 
+【执行时间】[126033]毫秒 
+【出错文件】e:\exam\exam\admin\data\data.aspx.cs 
+【出错行号】639 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】data.aspx.cs,addconreadbook,ex:当 IDENTITY_INSERT 设置为 OFF 时，不能为表 'tb_School_QuestionCls' 中的标识列插入显式值。|   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Exam.DAL.tb_School_QuestionClsDataAccessLayer.Insert(tb_School_QuestionClsEntity _tb_School_QuestionClsModel) 位置 e:\exam\exam\DAL\tb_School_QuestionClsDal.cs:行号 63
+   在 Exam.BLL.tb_School_QuestionClsBLL.Insert(tb_School_QuestionClsEntity tb_School_QuestionClsEntity) 位置 e:\exam\exam\BLL\tb_School_QuestionClsLogic.cs:行号 30
+   在 data_data.addconreadbook(Int32 id) 位置 e:\exam\exam\admin\data\data.aspx.cs:行号 633 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 17:16:06,633 
+【线程编号】[10] 
+【执行时间】[128874]毫秒 
+【出错文件】e:\exam\exam\admin\data\data.aspx.cs 
+【出错行号】639 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】data.aspx.cs,addconreadbook,ex:当 IDENTITY_INSERT 设置为 OFF 时，不能为表 'tb_School_QuestionCls' 中的标识列插入显式值。|   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Exam.DAL.tb_School_QuestionClsDataAccessLayer.Insert(tb_School_QuestionClsEntity _tb_School_QuestionClsModel) 位置 e:\exam\exam\DAL\tb_School_QuestionClsDal.cs:行号 63
+   在 Exam.BLL.tb_School_QuestionClsBLL.Insert(tb_School_QuestionClsEntity tb_School_QuestionClsEntity) 位置 e:\exam\exam\BLL\tb_School_QuestionClsLogic.cs:行号 30
+   在 data_data.addconreadbook(Int32 id) 位置 e:\exam\exam\admin\data\data.aspx.cs:行号 633 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 17:18:06,415 
+【线程编号】[6] 
+【执行时间】[98]毫秒 
+【出错文件】e:\exam\exam\admin\data\data.aspx.cs 
+【出错行号】639 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】data.aspx.cs,addconreadbook,ex:当 IDENTITY_INSERT 设置为 OFF 时，不能为表 'tb_School_QuestionCls' 中的标识列插入显式值。|   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Exam.DAL.tb_School_QuestionClsDataAccessLayer.Insert(tb_School_QuestionClsEntity _tb_School_QuestionClsModel) 位置 e:\exam\exam\DAL\tb_School_QuestionClsDal.cs:行号 63
+   在 Exam.BLL.tb_School_QuestionClsBLL.Insert(tb_School_QuestionClsEntity tb_School_QuestionClsEntity) 位置 e:\exam\exam\BLL\tb_School_QuestionClsLogic.cs:行号 30
+   在 data_data.addconreadbook(Int32 id) 位置 e:\exam\exam\admin\data\data.aspx.cs:行号 633 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 17:20:39,423 
+【线程编号】[7] 
+【执行时间】[77]毫秒 
+【出错文件】e:\exam\exam\admin\data\data.aspx.cs 
+【出错行号】639 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】data.aspx.cs,addconreadbook,ex:必须声明标量变量 "@RelationId"。|   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Exam.DAL.tb_School_QuestionClsDataAccessLayer.Insert(tb_School_QuestionClsEntity _tb_School_QuestionClsModel) 位置 e:\exam\exam\DAL\tb_School_QuestionClsDal.cs:行号 61
+   在 Exam.BLL.tb_School_QuestionClsBLL.Insert(tb_School_QuestionClsEntity tb_School_QuestionClsEntity) 位置 e:\exam\exam\BLL\tb_School_QuestionClsLogic.cs:行号 30
+   在 data_data.addconreadbook(Int32 id) 位置 e:\exam\exam\admin\data\data.aspx.cs:行号 633 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 17:22:58,652 
+【线程编号】[8] 
+【执行时间】[106]毫秒 
+【出错文件】e:\exam\exam\admin\data\data.aspx.cs 
+【出错行号】639 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】data.aspx.cs,addconreadbook,ex:不能将值 NULL 插入列 'Score'，表 'exam.dbo.tb_School_QuestionCls'；列不允许有空值。INSERT 失败。
+语句已终止。|   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Exam.DAL.tb_School_QuestionClsDataAccessLayer.Insert(tb_School_QuestionClsEntity _tb_School_QuestionClsModel) 位置 e:\exam\exam\DAL\tb_School_QuestionClsDal.cs:行号 61
+   在 Exam.BLL.tb_School_QuestionClsBLL.Insert(tb_School_QuestionClsEntity tb_School_QuestionClsEntity) 位置 e:\exam\exam\BLL\tb_School_QuestionClsLogic.cs:行号 30
+   在 data_data.addconreadbook(Int32 id) 位置 e:\exam\exam\admin\data\data.aspx.cs:行号 633 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 17:25:10,089 
+【线程编号】[7] 
+【执行时间】[101]毫秒 
+【出错文件】e:\exam\exam\admin\data\data.aspx.cs 
+【出错行号】639 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】data.aspx.cs,addconreadbook,ex:必须声明标量变量 "@RelationId"。|   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Exam.DAL.tb_School_QuestionClsDataAccessLayer.Insert(tb_School_QuestionClsEntity _tb_School_QuestionClsModel) 位置 e:\exam\exam\DAL\tb_School_QuestionClsDal.cs:行号 63
+   在 Exam.BLL.tb_School_QuestionClsBLL.Insert(tb_School_QuestionClsEntity tb_School_QuestionClsEntity) 位置 e:\exam\exam\BLL\tb_School_QuestionClsLogic.cs:行号 30
+   在 data_data.addconreadbook(Int32 id) 位置 e:\exam\exam\admin\data\data.aspx.cs:行号 633 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 17:25:21,316 
+【线程编号】[8] 
+【执行时间】[11327]毫秒 
+【出错文件】e:\exam\exam\admin\data\data.aspx.cs 
+【出错行号】639 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】data.aspx.cs,addconreadbook,ex:必须声明标量变量 "@RelationId"。|   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Exam.DAL.tb_School_QuestionClsDataAccessLayer.Insert(tb_School_QuestionClsEntity _tb_School_QuestionClsModel) 位置 e:\exam\exam\DAL\tb_School_QuestionClsDal.cs:行号 63
+   在 Exam.BLL.tb_School_QuestionClsBLL.Insert(tb_School_QuestionClsEntity tb_School_QuestionClsEntity) 位置 e:\exam\exam\BLL\tb_School_QuestionClsLogic.cs:行号 30
+   在 data_data.addconreadbook(Int32 id) 位置 e:\exam\exam\admin\data\data.aspx.cs:行号 633 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 17:25:25,893 
+【线程编号】[7] 
+【执行时间】[15904]毫秒 
+【出错文件】e:\exam\exam\admin\data\data.aspx.cs 
+【出错行号】639 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】data.aspx.cs,addconreadbook,ex:必须声明标量变量 "@RelationId"。|   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Jnwf.Utils.Data.SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   在 Exam.DAL.tb_School_QuestionClsDataAccessLayer.Insert(tb_School_QuestionClsEntity _tb_School_QuestionClsModel) 位置 e:\exam\exam\DAL\tb_School_QuestionClsDal.cs:行号 63
+   在 Exam.BLL.tb_School_QuestionClsBLL.Insert(tb_School_QuestionClsEntity tb_School_QuestionClsEntity) 位置 e:\exam\exam\BLL\tb_School_QuestionClsLogic.cs:行号 30
+   在 data_data.addconreadbook(Int32 id) 位置 e:\exam\exam\admin\data\data.aspx.cs:行号 633 
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝ 
+【日志级别】ERROR 
+【记录时间】2015-08-29 18:13:49,360 
+【线程编号】[46] 
+【执行时间】[76]毫秒 
+【出错文件】e:\exam\exam\admin\login.aspx.cs 
+【出错行号】34 
+【出错的类】Jnwf.Utils.Log.Logger 属性[(null)] 
+【错误描述】login,name:100110000003@zcy.com,pwd:admin,ex:正在中止线程。|   在 System.Threading.Thread.AbortInternal()
+   在 System.Threading.Thread.Abort(Object stateInfo)
+   在 System.Web.HttpResponse.AbortCurrentThread()
+   在 System.Web.HttpResponse.End()
+   在 System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   在 System.Web.HttpResponse.Redirect(String url)
+   在 login.Button1_Click(Object sender, EventArgs e) 位置 e:\exam\exam\admin\login.aspx.cs:行号 25 
+【错误详情】

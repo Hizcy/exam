@@ -1,0 +1,85 @@
+﻿.cLineB {
+overflow: hidden;
+padding: 8px 0;
+border-bottom: 1px solid #EEEEEE;
+}
+.contentbox .cLineB h4 {
+font-size: 16px; padding:5px; margin:0px;
+}
+.contentbox .cLineB button a{ color:#fff} 
+.btnGreen {
+
+padding: 5px 20px;
+cursor: pointer;
+display: inline-block;
+text-align: center;
+vertical-align: bottom;
+overflow: visible;
+background-color: #5ba607;
+background-image: linear-gradient(bottom, #107BAD 3%, #18C2D1 97%, #18C2D1 100%);
+background-image: -moz-linear-gradient(bottom, #107BAD 3%, #0A8DE40 97%, #18C2D1 100%);
+background-image: -webkit-linear-gradient(bottom, #107BAD 3%,#0A8DE4 97%, #18C2D1 100%);
+color: #fff;
+font-size: 14px;
+line-height: 1.5;
+}
+.right {
+float: right; margin-right:5px;
+}
+.ftip {
+background: #fefbe4 url(http://sr.taipengvip.com/admin/images/lightbulb.gif) no-repeat 10px 16px;
+
+padding: 6px 20px 6px 36px;
+height: 36px;
+font-size: 14px;
+margin: 10px;
+color: #993300;
+line-height: 36px;
+}
+TABLE.ListProduct {
+BORDER-TOP: #d3d3d3 1px solid;
+MARGIN-BOTTOM: 5px;
+
+_border-collapse: collapse;
+}
+TABLE.ListProduct THEAD TH {
+BORDER-BOTTOM: #d3d3d3 1px solid;
+PADDING-BOTTOM: 5px;
+BACKGROUND-COLOR: #f1f1f1;
+PADDING-LEFT: 5px;
+PADDING-RIGHT: 5px;
+COLOR: #666;
+FONT-SIZE: 14px;
+BORDER-TOP: #e3e3e3 1px solid;
+FONT-WEIGHT: normal;
+BORDER-RIGHT: #ddd 1px solid;
+PADDING-TOP: 5px;
+color: #000000;
+font-weight: bold;
+}
+TABLE.ListProduct TBODY TR:nth-child(2n+1) {
+background-color: #FCFCFC;
+}
+TABLE.ListProduct TBODY TD {
+BORDER-BOTTOM: #eee 1px solid;
+PADDING-BOTTOM: 10px;
+PADDING-LEFT: 5px;
+PADDING-RIGHT: 5px;
+BORDER-RIGHT: #eee 1px solid;
+PADDING-TOP: 10px;
+font-size: 12px;
+_empty-cells: show;
+word-break: break-all;
+}
+TABLE.ListProduct TBODY TD a{ color:#fff}
+#cdul {
+float: left;
+color: red;
+}
+TABLE.ListProduct TBODY TR:hover {
+background-color: #F1FCEA;
+}
+.board {
+background: url(../images/bg_repno.png) no-repeat scroll 0 0 transparent; 
+padding-left:55px;
+}

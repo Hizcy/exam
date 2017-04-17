@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>考试记录</title>
+    <link rel="icon" sizes="any" mask href="http://kqd.webf.com.cn/images/kuai.png" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/m_login.css" />
+</head>
+<body class="bodyBg_main">
+    <form id="form1" runat="server">
+        <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <img src="../images/logo1.png" width="100" height="40" data-toggle="collapse" data-target=".navbar-collapse" style="margin-top:10px;margin-left:5px">
+                    <div class="nav-left">考试记录</div>
+                </div>
+                <div class="collapse navbar-collapse" id="book">
+                    <ul class="nav navbar-nav">
+                        <li ><a id="ida" href>评测列表<span class="glyphicon glyphicon-chevron-right"><img src="../images/arrow.png" /></span></a></li>
+                        <li ><a id="ida2" href>个人中心<span class="glyphicon glyphicon-chevron-right"><img src="../images/arrow.png" /></span></a></li>
+                        <li ><a id="ida3" href>修改密码<span class="glyphicon glyphicon-chevron-right"><img src="../images/arrow.png" /></span></a></li>
+                        <li class="active"><a id="ida4" href>考试记录<span class="glyphicon glyphicon-chevron-right"><img src="../images/arrow.png" /></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container main">
+            <table style="width: 100%; text-align: center; background-color: #5a618d;color:#fff">
+                <tr>
+                    <td style="width:70%;height:30px;font-size:16px">书名</td>
+                    <td style="width:30%;height:30px;font-size:16px">是否通过</td>
+                </tr>
+            </table>
+            <table style="width:100%;text-align:center" id="conten">
+                
+            </table>
+        </div>
+        <script src="../js/jquery-1.7.2.min.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+    </form>
+    <script>
+        
+       
+        $(function () {
+            var userId = 0;
+            var schoolid = 0;
+            var idname = "";
+            var iddomain = "";
+            var url = location.search; //获取url中"?"符后的字串
+            if (url.indexOf("?") != -1) {
+                var str = url.substr(1);
+                strs = str.split("&");
+                userId = strs[0].split("=")[1];
+                schoolid = strs[1].split("=")[1];
+                idname = strs[2].split("=")[1];
+                iddomain = strs[3].split("=")[1];
+                $("#ida").attr("href", "../exam/m_ListExam.html?userid=" + userId + "&schoolid=" + schoolid + "&idname=" + idname + "&iddomain=" + iddomain);
+                $("#ida2").attr("href", "../center/m_Center.html?userid=" + userId + "&schoolid=" + schoolid + "&idname=" + idname + "&iddomain=" + iddomain);
+                $("#ida3").attr("href", "../center/m_pass.html?userid=" + userId + "&schoolid=" + schoolid + "&idname=" + idname + "&iddomain="+iddomain);
+                $("#ida4").attr("href", "../record/RecordList.html?userid=" + userId + "&schoolid=" + schoolid + "&idname=" + idname + "&iddomain="+iddomain);
+            }
+           
+            $.ajax({
+                url: "../data/data.aspx",
+                type: "POST",
+                data: { type: "listrecord", userId: userId },
+                success: function (str) {
+                    if (str != "") {
+                        eval("var json=" + str + "");
+                        $("#conten").html(decodeURIComponent(json.body));//解码赋值
+                    }
+                }
+            })
+        })
+       
+    </script>
+</body>
+</html>

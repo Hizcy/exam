@@ -1,0 +1,5 @@
+F:\wf\kaoshiqingtai\exam\Model\bin\Debug\Model.dll
+F:\wf\kaoshiqingtai\exam\Model\bin\Debug\Model.pdb
+F:\wf\kaoshiqingtai\exam\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+F:\wf\kaoshiqingtai\exam\Model\obj\Debug\Model.dll
+F:\wf\kaoshiqingtai\exam\Model\obj\Debug\Model.pdb

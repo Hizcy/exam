@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>快去读</title>
+<link rel="icon" sizes="any" mask href="http://kqd.webf.com.cn/images/kuai.png"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="/css/customer.css"/>
+<script src="/js/jquery-1.7.2.min.js"></script>
+   
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+   
+<body>
+    <form id="form1" runat="server">
+    
+    <div  style="min-width:990px;width:990px;text-align:right;margin-left: auto; margin-right: auto;border-bottom:1px dashed #636161;padding:10px 10px;font-size: 10px;font-family:Microsoft YaHei">
+      <span style="color:#f67e19">你好,</span><asp:Label runat="server" ID="labname"><%=user %></asp:Label><a href="/logout.aspx" style="cursor:pointer"><img src="../images/out.png" style="margin-left:20px;width:12px;height:12px"/> <span style="margin-right:20px">退出</span></a>
+    </div>
+  <div class="headerCustomer">   
+    <div style=""></div>
+      <div class="headerLogo" style=""><img src="../images/logo.png"  style="width:204px;"></div>
+       <%=first %>
+    </div>
+        <%--用户管理--%>
+        <div  class="container main" ><br /><br /><hr />
+          <div class="row setUser setQuertions">
+          
+        <%=menu %>
+      
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" >       
+        </asp:ContentPlaceHolder>
+       </div>
+      </div>
+    </form>
+      
+</body>
+</html>

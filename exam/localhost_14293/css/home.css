@@ -1,0 +1,15 @@
+﻿.nav-menu{border:0px none;cursor:default;font-size:0;line-height:0}
+.nav-menu .mainmenu .arrow-weixin{margin-right:0}
+.nav-menu .mainmenu .arrow-weixin,.nav-menu .mainmenu .mainmenu-txt{font-size:14px;line-height:45px;display:inline-block;vertical-align:middle}
+.shop-nav{position:fixed;z-index:99}
+.nav-menu .nav-item{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.nav-menu a{display:block;height:100%;background-position:center center;background-size:contain;background-repeat:no-repeat}
+.nav-menu-1,.nav-menu-2,.nav-menu-3{bottom:0px;left:0px;right:0px;height:40px;background:#eaeaea;color:#eee;text-align:center}
+.nav-menu-4,.nav-menu-5{left:0px;bottom:0px}
+.nav-menu-1{border:0px none;-webkit-border-image:url("/v2/image/wap/shopnav/nav_border.png") 2 stretch;-moz-border-image:url("/v2/image/wap/shopnav/nav_border.png") 2 stretch;border-image:url("/v2/image/wap/shopnav/nav_border.png") 2 stretch;border-top:2px solid #e5e5e5;background:no-repeat #fafafa;background-size:100% 100px;height:45px}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min--moz-device-pixel-ratio: 1.5),only screen and (-o-min-device-pixel-ratio: 3/2),only screen and (min-device-pixel-ratio: 1.5) {
+    /*决定宽的比例*/
+    .nav-menu-1.has-menu-3 .nav-item {
+        width: 100%;
+    }
+}

@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>快去读</title>
+    <link rel="icon" sizes="any" mask href="http://kqd.webf.com.cn/images/kuai.png" />
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/m_login.css" />
+    <link href="../css/home.css" rel="stylesheet" />
+    <link href="../css/new.css" rel="stylesheet" />
+    <script src="../js/jquery-1.7.2.min.js"></script>
+</head>
+<body class="bodyBg_main">
+    <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <img src="../images/logo1.png" width="100" height="40" data-toggle="collapse" data-target=".navbar-collapse" style="margin-top:10px;margin-left:5px">
+                <div class="nav-left">评测列表</div>
+            </div>
+            <div class="collapse navbar-collapse" id="book">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a id="ida" href>评测列表<span class="glyphicon glyphicon-chevron-right"><img src="../images/arrow.png" /></span></a></li>
+                    <li><a id="ida2" href>个人中心<span class="glyphicon glyphicon-chevron-right"><img src="../images/arrow.png" /></span></a></li>
+                    <li><a id="ida3" href>修改密码<span class="glyphicon glyphicon-chevron-right"><img src="../images/arrow.png" /></span></a></li>
+                    <li><a id="ida4" href>考试记录<span class="glyphicon glyphicon-chevron-right"><img src="../images/arrow.png" /></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container main">
+        <div class="navSearch" style="margin-bottom:5px">
+            <select name="paper_type" id="dllLevel" class="form-control searchInput" style="width:100%"></select>
+        </div>
+        <div class="box" id="conten">
+           
+        </div>
+     </div>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/com.js"></script>
+    <script src="../js/run.js"></script>
+    <div class="js-navmenu js-footer-auto-ele shop-nav nav-menu nav-menu-1 has-menu-3">
+        <div id="wrapper">
+            <div class="first">
+                <dl id="ticker-1">
+                    <dt>相册代码</dt>
+                    <dd><a href="#" target="_blank"></a> </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-----学校Id---->
+    <input type="text" id="schoolid" style="display:none" />
+    <!-----用户Id---->
+    <input type="text" id="userid" style="display: none" />
+    <!-----用户名字---->
+    <input type="text" id="idname" style="display: none" />
+    <!-----学校名---->
+    <input type="text" id="iddomain" style="display: none" />
+        <script>
+            $(function(){
+                var tschoolid = "";
+                var tuserid="";
+                $.ajax({
+                    url: "../data/data.aspx",
+                    type: 'POST',
+                    data: {
+                        type:"GetData"
+                    },
+                    success: function (str) {
+                        if (str != "")
+                        {
+                            eval("var json=" + str + "");
+                            $("#schoolid").val(json.schoolId);
+                            tschoolid = $("#schoolid").val();
+                            $("#userid").val(json.UserId);
+                            tuserid=$("#userid").val();
+                            $("#idname").val(json.idname);
+                            $("#iddomain").val(json.iddomain);
+                            test(tschoolid, tuserid);
+                        }
+                    }
+                })
+                //var url = location.search; //获取url中"?"符后的字串
+                //if (url.indexOf("?") != -1) {
+                //    var str = url.substr(1);
+                //    strs = str.split("&");
+                //    userId = strs[0].split("=")[1];
+                //    $("#userid").val(userId);
+                //    schoolid = strs[1].split("=")[1];
+                //    $("#schoolid").val(schoolid);
+                //    idname = strs[2].split("=")[1];
+                //    $("#idname").val(idname);
+                //    iddomain = strs[3].split("=")[1];
+                //    $("#iddomain").val(iddomain);
+                //    $("#ida").attr("href", "../exam/m_ListExam.html?userid=" + userId + "&schoolid=" + schoolid + "&idname=" + idname + "&iddomain=" + iddomain);
+                //    $("#ida2").attr("href", "../center/m_Center.html?userid=" + userId + "&schoolid=" + schoolid + "&idname=" + idname + "&iddomain=" + iddomain);
+                //    $("#ida3").attr("href", "../center/m_pass.html?userid=" + userId + "&schoolid=" + schoolid + "&idname=" + idname + "&iddomain=" + iddomain);
+                //    $("#ida4").attr("href", "../record/RecordList.html?userid=" + userId + "&schoolid=" + schoolid + "&idname=" + idname + "&iddomain=" + iddomain);
+                //}
+                //几级书库
+              //  var schoolid = $("#schoolid").val();
+               // var userid = $("#userid").val();
+               // var idname = $("#idname").val();
+                //var iddomain = $("#iddomain").val();
+             
+               
+            })
+
+            $("#dllLevel").change(function () {
+                var parentId = $("#dllLevel").select().val();
+                var schoolid = $("#schoolid").val();
+                var userid = $("#userid").val();
+                //书库内容列表
+                $.ajax({
+                    url: "../data/data.aspx",
+                    type: "POST",
+                    data: { type: "listmexam", parentId: parentId, schoolid: schoolid, userid: userid },
+                    success: function (str) {
+                        if (str != "") {
+                            eval("var json=" + str + "");
+                            $("#conten").html(decodeURIComponent(json.body));//解码赋值
+                        }
+                        else {
+                            $("#conten").html("");
+                        }
+                    }
+                })
+            })
+            
+            function test(schoolid, userid) {
+               
+                $.ajax({
+                    url: "../data/data.aspx",
+                    type: 'POST',
+                    data: {
+                        type: 'getbook',
+                        schoolId: schoolid,
+                        userid: userid
+                    },
+                    success: function (result) {
+                        if (result != null) {
+                            var arr = result.split('+');
+                            $("#dllLevel").html(arr[0]);
+                            eval("var json=" + arr[1] + "");
+                            $("#conten").html(decodeURIComponent(json.body));//解码赋值
+                        }
+                    },
+                    error: function (data, textStatus, jqXHR) {
+
+                        //alert(data.status);
+                        //alert(data.readyState);
+                        //alert(data.responseText);
+                        //alert(data.statusText);
+
+                    }
+                })
+                //广告
+                $.ajax({
+                    url: "../data/data.aspx",
+                    type: 'POST',
+                    data: {
+                        type: 'ad',
+                        schoolId: schoolid
+                    },
+                    success: function (strad) {
+                        if (strad != "") {
+                            eval("var json=" + strad + "");
+                            $("#ticker-1").html(decodeURIComponent(json.body));//解码赋值
+                        }
+                    }
+                })
+                var schoolid = $("#schoolid").val();
+                var userid = $("#userid").val();
+                var idname = $("#idname").val();
+                var iddomain = $("#iddomain").val();
+                $("#ida").attr("href", "../exam/m_ListExam.html");
+                $("#ida2").attr("href", "../center/m_Center.html?userid=" + userid + "&schoolid=" + schoolid + "&idname=" + idname + "&iddomain=" + iddomain);
+                $("#ida3").attr("href", "../center/m_pass.html?userid=" + userid + "&schoolid=" + schoolid + "&idname=" + idname + "&iddomain=" + iddomain);
+                $("#ida4").attr("href", "../record/RecordList.html?userid=" + userid + "&schoolid=" + schoolid + "&idname=" + idname + "&iddomain=" + iddomain);
+            }
+        </script>
+</body>
+</html>

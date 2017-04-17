@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0033)http://task.fanmore.cn/index.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>任务频道</title>
+    <link href="../css/renwuzhongxin.css" rel="stylesheet" type="text/css">
+    <link href="../css/global.css" rel="stylesheet" type="text/css">
+    <link href="../css/tasklist.css" rel="stylesheet" type="text/css">
+  
+
+
+
+
+</head>
+
+<body>
+    <!--导航-->
+   
+        <div id="biaogeshuju" style="font-size: 14px;">
+            <div class="grid grid-inverse">
+                <div class="main-wrap" style="min-width: 1000px">
+                    <div class="main mainContent">
+                        <div class="list-container">
+                            <div class="list-container-hd clearfix">
+                                <p style="font-size: 14px; font-weight: bold">我的所有任务(<span class="list-number" id="myTaskAmount">0</span>)</p>
+                            </div>
+                            <div class="list-filter" id="choose">
+                                <dl id="1">
+                                    <dt id="2">审核状态:</dt>
+                                    <dd type="taskStatus">
+                                        <a title="" value="0" href="javascript:void(0);" class="selected">全部</a>
+                                        <a title="" value="3" href="javascript:void(0);">审核通过</a>
+                                        <a title="" href="javascript:void(0);" value="2">审核未通过 </a>
+                                        <a title="" href="javascript:void(0);" value="1">待审核 </a></dd>
+                                </dl>
+                                <dl id="2">
+                                    <dt>任务类型:</dt>
+                                    <dd type="taskType">
+                                        <a href="javascript:void(0);" value="0" class="selected">全部 </a>
+                                        <a value="999999" href="javascript:void(0);">图文 </a>
+                                        <a value="1" href="javascript:void(0);">活动 </a>
+                                    </dd>
+                                </dl>
+                                <dl id="3">
+                                    <dt>开始时间:</dt>
+                                    <dd type="taskCreateTime">
+                                        <a value="0" href="javascript:void(0);" class="selected">全部 </a>
+                                        <a value="1" href="javascript:void(0);">最近一周</a>
+                                        <a value="2" href="javascript:void(0);">最近一个月</a>
+                                        <a value="3" href="javascript:void(0);">最近三个月</a>
+                                        <a value="4" href="javascript:void(0);">三个月以上</a>
+                                    </dd>
+                                </dl>
+                                <input type="hidden" id="taskStatus" value="0">
+                                <input type="hidden" id="taskType" value="0">
+                                <input type="hidden" id="taskCreateTime" value="0">
+                            </div>
+                            <div class="list-container-hd list-container-hd-border clearfix"></div>
+
+
+
+
+
+
+                            <table id="tbList" class="list-task" style="min-width: 816px;">
+                                <thead class="list-sortby " style="color: #333; height: 20px; border-bottom: 1px; font-size: 15px;">
+                                    <tr>
+                                        <td style="min-width: 140px; text-align: left; padding-right: 0px;">&nbsp;&nbsp;&nbsp;&nbsp;奖励&nbsp;&nbsp;&nbsp;&nbsp;任务标题</td>
+                                        <td style="width: 120px; text-align: center; padding-right: 0px;">剩余积分</td>
+                                        <td style="width: 100px; text-align: center; padding-right: 0px;">转发</td>
+                                        <td style="width: 100px; text-align: center; padding-right: 0px;">浏览</td>
+                                        
+                                        <td style="width: 120px; text-align: center; padding-right: 0px;">结束时间</td>
+                                        <td style="width: 100px; text-align: center; padding-right: 0px;">任务状态</td>
+                                        <td style="width: 140px; text-align: center; padding-right: 0px;">操作</td>
+
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+
+                            </table>
+                            <div class="list-footer">
+                                <div class="pagination">
+                                    <ul></ul>
+                                </div>
+                                <div class="asset-a-d"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body></html>
